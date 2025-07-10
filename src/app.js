@@ -19,7 +19,7 @@ window.onload = function() {
     for (let j = 0; j < nouns.length; j++) {
       for (let k = 0; k < domains.length; k++) {
         let domainName = prefixes[i] + nouns[j] + domains[k];
-          const domainDiv = document.createElement('div');
+          const domainDiv = document.createElement('li');
                 domainDiv.textContent = domainName;
                 domainNames.appendChild(domainDiv);
        }
